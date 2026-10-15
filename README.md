@@ -37,7 +37,7 @@ discussion of the cross-PDE nature of the MSE ratios.
 
 ## Repository structure
 
-- `paper/` — LaTeX source (`ARIA_ICNABS_v21.tex`) and final PDF
+- `paper/` — LaTeX source (`ARIA_PINN.tex`) and final PDF
 - `code/` — Python scripts (training, reference solvers, figure generation)
 - `data/` — Reference solutions and PINN results (`.npz` files)
 - `figures/` — Figure PDFs
