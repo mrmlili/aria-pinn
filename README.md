@@ -13,18 +13,20 @@ This repository contains the code, data, and manuscript for a study on
 fractional derivative discretizations in Physics-Informed Neural Networks
 (PINNs).
 
-We introduce a three-test diagnostic protocol
-(kernel-presence, Δt-refinement, effective-time) to detect whether a PINN
-residual genuinely preserves the non-local memory of the fractional
-operator.
+We introduce a **three-test diagnostic protocol** (kernel-presence,
+Δt-refinement, effective-time) to detect whether a PINN residual genuinely
+preserves the non-local memory of the fractional operator, or silently
+reduces to a local surrogate.
 
-**Key results (α = 0.8, 3 seeds):**
+---
 
-| Residual     | MSE (mean ± std)               | Time (s) |
-|--------------|--------------------------------|----------|
-| Naive FD     | 3.04e-6 ± 1.42e-6              | 216      |
-| Caputo-L1    | 6.19e-6 ± 0.72e-6              | 2327     |
-| ABC-L1       | 4.19e-5 ± 9.17e-6              | 2968     |
+## Key results (α = 0.8, 3 seeds)
+
+| Residual  | MSE (mean ± std)      | Time (s) |
+|-----------|-----------------------|----------|
+| Naive FD  | 3.04e-6 ± 1.42e-6     | 216      |
+| Caputo-L1 | 6.19e-6 ± 0.72e-6     | 2327     |
+| ABC-L1    | 4.19e-5 ± 9.17e-6     | 2968     |
 
 At **α = 0.5**, the ranking changes: Caputo-L1 outperforms Naive FD.
 
@@ -58,5 +60,6 @@ To regenerate figures, run the `fig*.py` scripts in `code/`.
 - PyTorch (CPU), NumPy, SciPy, Matplotlib
 
 Install:
+
 ```bash
 pip install torch numpy scipy matplotlib
