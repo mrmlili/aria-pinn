@@ -3,7 +3,7 @@
 A Diagnostic Framework for Detecting False Fractionalization in Physics-Informed Neural Networks.
 
 **Author:** Maryam Jalili (mrmjlili@iau.ac.ir)
-**Affiliation:** Department of Mathematics, Neyshabur Branch, Islamic Azad University, Neyshabur, Iran
+**Affiliation:** Department of Mathematics, Ne. C., Islamic Azad University, Neyshabur, Iran
 
 ---
 
