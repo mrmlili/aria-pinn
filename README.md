@@ -30,14 +30,16 @@ reduces to a local surrogate.
 
 At **α = 0.5**, the ranking changes: Caputo-L1 outperforms Naive FD.
 
-See the manuscript (in `paper/`) for full analysis, limitations, and
-discussion of the cross-PDE nature of the MSE ratios.
+See `ARIA_PINN.pdf` (at the repository root) for full analysis,
+limitations, and discussion of the cross-PDE nature of the MSE ratios.
 
 ---
 
 ## Repository structure
 
-- `paper/` — LaTeX source (`ARIA_PINN.tex`) and final PDF
+## Repository structure
+- `ARIA_PINN.tex`, `ARIA_PINN.pdf` — LaTeX source and final manuscript (22 pages)
+- `cover_letter_JAMC.tex`, `cover_letter_JAMC.pdf` — Cover letter for JAMC submission
 - `code/` — Python scripts (training, reference solvers, figure generation)
 - `data/` — Reference solutions and PINN results (`.npz` files)
 - `figures/` — Figure PDFs
