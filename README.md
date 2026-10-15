@@ -35,7 +35,6 @@ limitations, and discussion of the cross-PDE nature of the MSE ratios.
 
 ---
 
-## Repository structure
 
 ## Repository structure
 - `ARIA_PINN.tex`, `ARIA_PINN.pdf` — LaTeX source and final manuscript (22 pages)
