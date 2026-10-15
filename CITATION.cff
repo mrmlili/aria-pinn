@@ -5,10 +5,9 @@ authors:
     given-names: Maryam
     email: mrmjlili@iau.ac.ir
     affiliation: "Department of Mathematics, Ne. C., Islamic Azad University, Neyshabur, Iran"
-  
 title: "ARIA-PINN: A Diagnostic Framework for Detecting False Fractionalization in Physics-Informed Neural Networks"
 version: 2.1.0
-doi: "10.5281/zenodo.23266644"
+doi: "10.5281/zenodo.23389593"
 date-released: "2026-10-15"
 license: MIT
 repository-code: "https://github.com/mrmlili/aria-pinn"
@@ -16,6 +15,5 @@ keywords:
   - Physics-Informed Neural Networks
   - Fractional Calculus
   - Atangana-Baleanu-Caputo Derivative
-  - Advection-Dispersion
   - Diagnostic Protocol
   - Reproducible Benchmark
