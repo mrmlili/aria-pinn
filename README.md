@@ -1,4 +1,4 @@
-﻿# ARIA-ICNABS
+﻿# ARIA-PINN
 
 A Diagnostic Framework for Detecting False Fractionalization in Physics-Informed Neural Networks.
 
