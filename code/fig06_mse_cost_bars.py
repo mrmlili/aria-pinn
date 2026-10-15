@@ -53,15 +53,11 @@ ax.set_ylabel('Training time (s, mean ± std)')
 ax.set_title('Computational cost')
 ax.grid(True, alpha=0.3, axis='y')
 
-for i, (b, t) in enumerate(zip(bars, time_mean)):
-    # قرار دادن برچسب بالاتر از error bar cap
-    y_pos = t + time_std[i] + 80
-    ax.text(b.get_x() + b.get_width()/2, y_pos,
+for b, t in zip(bars, time_mean):
+    ax.text(b.get_x() + b.get_width()/2, t * 1.02,
             f'{t:.0f}s', ha='center', fontsize=10)
 
 plt.tight_layout()
 plt.savefig(os.path.join(FIG_DIR, 'fig06_mse_cost_bars.png'))
 plt.savefig(os.path.join(FIG_DIR, 'fig06_mse_cost_bars.pdf'))
 print(f"✅ Saved: {FIG_DIR}/fig06_mse_cost_bars.{{png,pdf}}")
-
-
