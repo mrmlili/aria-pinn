@@ -1,0 +1,60 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{parskip}
+\usepackage{hyperref}
+\geometry{top=25mm, bottom=25mm, left=25mm, right=25mm}
+\hypersetup{colorlinks=true, urlcolor=blue, linkcolor=black}
+\begin{document}
+
+Maryam Jalili \\
+Department of Mathematics \\
+Neyshabur Branch, Islamic Azad University \\
+Neyshabur, Iran \\
+\href{mailto:mrmjlili@iau.ac.ir}{mrmjlili@iau.ac.ir}
+
+15 October 2026
+
+Editor-in-Chief \\
+\emph{Journal of Applied Mathematics and Computing} \\
+Springer
+
+Dear Editor,
+
+I am pleased to submit my manuscript, \textbf{``A Diagnostic Framework for Detecting False Fractionalization in Physics-Informed Neural Networks: A Three-Way Comparison of Fractional Advection--Dispersion Residuals,'} for consideration for publication in the \emph{Journal of Applied Mathematics and Computing}.
+
+\textbf{Motivation and contribution.} Physics-informed neural networks (PINNs) are increasingly deployed for fractional partial differential equations, yet the field lacks a systematic method to verify that a chosen residual discretization genuinely preserves the non-local memory of the underlying fractional operator. This paper addresses that gap through three contributions:
+
+\begin{enumerate}
+\item A \emph{three-test diagnostic protocol}---kernel-presence, $\Delta t$-refinement, and effective-time---that classifies a PINN residual as either a genuine fractional discretization or a local surrogate.
+\item A \emph{local-limit lemma} for the naive two-point finite-difference approximation of the Atangana--Baleanu--Caputo derivative, with an explicit first-order error bound and a discussion of its scope relative to the singular step-inlet data used in the experiments.
+\item The first \emph{three-way comparison} of PINN residuals guided by an explicit diagnostic protocol, at two fractional orders ($\alpha = 0.8$ and $\alpha = 0.5$).
+\end{enumerate}
+
+\textbf{Reproducibility.} All code, reference solutions, PINN checkpoints, and figure-generation scripts are released as a reproducible benchmark (GitHub: \url{https://github.com/mrmlili/aria-pinn}; Zenodo DOI: \href{https://doi.org/10.5281/zenodo.23266644}{10.5281/zenodo.23266644}).
+
+\textbf{Fit to JAMC.} The manuscript is a computational and applied mathematics contribution that combines numerical analysis of fractional discretizations with a machine-learning solver for time-fractional PDEs. It falls squarely within the scope of JAMC.
+
+\textbf{Honest limitations.} The manuscript openly acknowledges three limitations in Section 7.2: (i) no manufactured-solution verification of the reference solvers; (ii) no formal consistency analysis of the ABC-L1 quadrature; and (iii) small seed ensembles ($n=3$). These bound the scope of the numerical claims but do not undermine the central contributions.
+
+\textbf{Suggested Reviewers (external, no conflict of interest).}
+
+\textbf{1. Prof. Kai Diethelm.} Faculty of Applied Natural Sciences, Technical University of Applied Sciences W\"urzburg-Schweinfurt, Germany. Email: kai.diethelm@thws.de. Expertise: fractional calculus, numerical methods for fractional operators.
+
+\textbf{2. Prof. Martin Stynes.} Beijing Computational Science Research Center, China. Email: m.stynes@csrc.ac.cn. Expertise: numerical analysis of fractional PDEs, graded meshes, L1 schemes.
+
+\textbf{3. Prof. George Em Karniadakis.} Division of Applied Mathematics, Brown University, USA. Email: george\_karniadakis@brown.edu. Expertise: physics-informed neural networks, machine learning for PDEs.
+
+\textbf{4. Prof. Dumitru Baleanu.} Department of Mathematics and Computer Science, Lebanese American University, Beirut, Lebanon. Email: dumitru.baleanu@lau.edu.lb. Expertise: fractional operators and their applications.
+
+\textbf{Subject Classification (MSC 2020).} 65M06, 65M12, 68T07, 26A33. The manuscript sits at the intersection of fractional calculus, numerical analysis, and scientific machine learning.
+
+The manuscript is original, has not been published elsewhere, and is not under consideration by any other journal.
+
+Thank you for your time and consideration.
+
+Sincerely, \\
+Maryam Jalili
+
+\end{document}
