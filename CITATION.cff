@@ -4,8 +4,8 @@ authors:
   - family-names: Jalili
     given-names: Maryam
     email: mrmjlili@iau.ac.ir
-    affiliation: "Department of Mathematics, Neyshabur Branch, Islamic Azad University, Neyshabur, Iran"
+    affiliation: "Department of Mathematics, Ne. C., Islamic Azad University, Neyshabur, Iran"
 title: "A Diagnostic Framework for Detecting False Fractionalization in Physics-Informed Neural Networks"
 version: 1.0.0
-date-released: 2026-10-09
+date-released: 2026-10-15
 license: MIT
