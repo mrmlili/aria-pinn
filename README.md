@@ -61,5 +61,5 @@ To regenerate figures, run the `fig*.py` scripts in `code/`.
 
 Install:
 
-```bash
+
 pip install torch numpy scipy matplotlib
